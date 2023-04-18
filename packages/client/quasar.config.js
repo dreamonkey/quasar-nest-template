@@ -58,6 +58,8 @@ module.exports = configure(function (ctx) {
     build: {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
 
+      distDir: '../server/client-dist/',
+
       env: {
         API_URL: `${APP_PROTOCOL}://${APP_HOST}:${SERVER_PORT}/api`,
       },

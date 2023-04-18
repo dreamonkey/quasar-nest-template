@@ -29,3 +29,5 @@ yarn-error.log*
 # ==== OS Related ====
 .DS_Store
 .thumbs.db
+
+client-dist
