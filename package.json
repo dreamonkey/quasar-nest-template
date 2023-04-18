@@ -1,0 +1,13 @@
+{
+  "name": "quasar_nest",
+  "version": "0.0.0",
+  "description": "A demonstration project that shows how to create a mono-repo using Quasar as the frontend framework and NestJS as backend framework.",
+  "main": "index.js",
+  "author": "Alessandro Vandelli",
+  "license": "MIT",
+  "private": true,
+
+    "workspaces": [
+    "packages/*"
+  ]
+}

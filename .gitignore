@@ -1,0 +1,31 @@
+.env
+.env.*
+!.env.example
+
+
+# ==== Node related files ====
+node_modules
+dist/
+
+
+# ==== Log related files ====
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ==== IDE files ====
+.vs
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+
+# ==== OS Related ====
+.DS_Store
+.thumbs.db
